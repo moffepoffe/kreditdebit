@@ -7,23 +7,9 @@
   "outputPath": "/Users/martensidfalk/Local Sites/kreditdebit-frontity/build/static",
   "assetsByChunkName": {
     "kreditdebit-frontity": "kreditdebit-frontity.module.js",
-    "list": [
-      "list.module.js",
-      "list.52cadb6db7f3819a5e96.hot-update.js"
-    ]
+    "list": "list.module.js"
   },
   "assets": [
-    {
-      "name": "52cadb6db7f3819a5e96.hot-update.json",
-      "size": 46,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
     {
       "name": "fonts/Montserrat-Light.ttf",
       "size": 242068,
@@ -66,22 +52,8 @@
         "kreditdebit-frontity"
       ],
       "info": {},
-      "emitted": false
-    },
-    {
-      "name": "list.52cadb6db7f3819a5e96.hot-update.js",
-      "size": 82255,
-      "chunks": [
-        "list"
-      ],
-      "chunkNames": [
-        "list"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
+      "emitted": true,
+      "isOverSizeLimit": true
     },
     {
       "name": "list.module.js",
@@ -93,7 +65,7 @@
         "list"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true
     }
   ],
   "filteredAssets": 0,
@@ -125,8 +97,7 @@
         "list"
       ],
       "assets": [
-        "list.module.js",
-        "list.52cadb6db7f3819a5e96.hot-update.js"
+        "list.module.js"
       ],
       "children": {},
       "childAssets": {}
