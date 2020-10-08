@@ -1,0 +1,143 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.2",
+  "hash": "b7836e8e407a40d377d3",
+  "publicPath": "/static/",
+  "outputPath": "/Users/martensidfalk/Local Sites/kreditdebit-frontity/build/static",
+  "assetsByChunkName": {
+    "kreditdebit-frontity": "kreditdebit-frontity.module.js",
+    "list": [
+      "list.module.js",
+      "list.52cadb6db7f3819a5e96.hot-update.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "52cadb6db7f3819a5e96.hot-update.json",
+      "size": 46,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "fonts/Montserrat-Light.ttf",
+      "size": 242068,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Montserrat-LightItalic.ttf",
+      "size": 246276,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "fonts/Montserrat-SemiBold.ttf",
+      "size": 243816,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/logo.png",
+      "size": 174253,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "kreditdebit-frontity.module.js",
+      "size": 6529380,
+      "chunks": [
+        "kreditdebit-frontity"
+      ],
+      "chunkNames": [
+        "kreditdebit-frontity"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.52cadb6db7f3819a5e96.hot-update.js",
+      "size": 82255,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "list.module.js",
+      "size": 82332,
+      "chunks": [
+        "list"
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "kreditdebit-frontity": {
+      "chunks": [
+        "kreditdebit-frontity"
+      ],
+      "assets": [
+        "kreditdebit-frontity.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "kreditdebit-frontity": {
+      "chunks": [
+        "kreditdebit-frontity"
+      ],
+      "assets": [
+        "kreditdebit-frontity.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js",
+        "list.52cadb6db7f3819a5e96.hot-update.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
