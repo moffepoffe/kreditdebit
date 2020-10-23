@@ -3,7 +3,7 @@ import { connect, styled } from "frontity";
 import Link from "@frontity/components/link";
 import FeaturedMedia from "../featured-media";
 import Image from "@frontity/components/image";
-import CtaButton from "../ctabutton";
+import CtaButtonBig from "../ctabutton";
 /**
  * Item Component
  *
@@ -22,16 +22,27 @@ const ReviewItem = ({ state, item }) => {
   const imgsrc = item.acf.review_thumbnail.url;
   return (
 	<>
-	  <div className="col-12 col-md-3">
+	  <div className="col-12 col-lg-4 col-md-6">
 		<div className="card">
 		<Link link={item.link}>
-		<img class="card-img-top img-fluid" src={imgsrc} alt={item.title.rendered}/>
+		<img className="card-img-top img-fluid" src={imgsrc} alt={item.title.rendered}/>
 		</Link>
 		  <div className="card-body">
 			<h4 className="card-title" dangerouslySetInnerHTML={{ __html: item.title.rendered }} />
-			<div className="text-center">
-			<CtaButton href="#">Till Ansökan</CtaButton>
-			</div>
+      <table className="table">
+      <tbody>
+              {item.acf.affiliate_info_list.slice(0,5).map((infolist, index) => (
+              <tr key={index}>
+                <th>{infolist.item_title}</th>
+                <td>{infolist.item_value}</td>
+              </tr>
+            ))}
+            </tbody>      
+      </table>
+      <div className="list-btm-btn">
+      <CtaButtonSmall href={item.acf_affiliate_url} rel="nofollow" target="_blank">Till Ansökan</CtaButtonSmall>
+      <CtaButtonBorderOnly href={item.link}>Läs mer</CtaButtonBorderOnly>
+            </div>
 		  </div>
 		</div>
 	  </div>
@@ -44,6 +55,29 @@ const ReviewItem = ({ state, item }) => {
 export default connect(ReviewItem);
 const Article = styled.article`
 
+`;
+const CtaButtonSmall = styled.a`
+font-size: 13px;
+padding: 10px 20px;
+border-radius: 50px;
+color: #fff;
+background-color: var(--brand);
+text-decoration: none !important;
+box-shadow: 0 3px 3px rgba(0,0,0,0.31), 0 2px 1px rgba(0,0,0,0.07);
+transition: all .4s ease-in-out;
+float: left;
+`;
+
+const CtaButtonBorderOnly = styled.a`
+font-size: 13px;
+padding: 8px 20px;
+border-radius: 50px;
+color: var(--brand);
+border: 2px solid var(--brand);
+text-decoration: none !important;
+box-shadow: 0 3px 3px rgba(0,0,0,0.31), 0 2px 1px rgba(0,0,0,0.07);
+transition: all .4s ease-in-out;
+float: right;
 `;
 
 const Title = styled.h1`

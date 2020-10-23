@@ -159,24 +159,56 @@ const globalStyles = css`
  font-size: 10px; 
  font-style: italic;
  }
-`;
+ 
+ .btn {
+   font-size: 14px;
+   font-weight: bold;
+   padding: 15px 20px;
+   border-radius: 50px;
+   color: #fff;
+   -webkit-text-decoration: none !important;
+   text-decoration: none !important;
+   box-shadow: 0 4px 14px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.04);
+   -webkit-transition: all .4s ease-in-out;
+   transition: all .4s ease-in-out;
+   color: #fff !important;
+   height: 50px;
+   width: 205px;
+   margin-top: 15px;
+ }
+ .btn-primary {
+   background-color: var(--brand);
+   border: none;  
+ }
+ .jumbotron a {
+ color:var(--brand);
+ }
+ .table td, .table th {
+ padding: .5rem
+ }
+ .table {
+   font-size: 12px;
+ }
+ .card .table {
+ font-size: 10px;
+ }
+ .card .table td, .card .table th { 
+ padding: 5px;
+ }
+#mainnav  {
+justify-content: flex-end;
+}
+.jumbotron a.btn {
+margin-right: 20px; 
+}
+ `;
 
 const HeadContainer = styled.div`
-  display: flex;
-  width:100%;
-  justify-content: space-between;
-  margin: 0 auto;
-  padding-top: 2.75rem;
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-bottom:1rem;
-
 `;
 const FooterContainer = styled.div`
   display: flex;
   width:100%;
   background:var(--brand);
-  // margin-top: auto;
 `;
 
 const Main = styled.div`

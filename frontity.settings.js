@@ -4,9 +4,19 @@ const settings = {
     "frontity": {
       "url": "https://kreditdebit.com",
       "title": "KreditDebit",
-      "description": "WordPress installation for Frontity development"
+      "description": "Jämför lån för dina behov online"
     }
   },
+ "packages": [
+    {
+      "name": "@frontity/google-analytics",
+      "state": {
+        "googleAnalytics": {
+          "trackingId": "G-KTDBJQ3SQ3",
+        },
+      },
+    },
+  ],
   "packages": [
     {
       "name": "@awsmin/f1",
@@ -19,7 +29,7 @@ const settings = {
             ],
             [
               "Privatlån",
-              "/samla-lan/"
+              "/privatlan"
             ],
             [
               "Finansinsitut",
@@ -54,21 +64,18 @@ const settings = {
               endpoint: "prp_reviews", // REST API endpoint
               archive: "/finansinsitut" // link where this custom posts are listed
             }
-          ],         
-          taxonomies: [
-            {
-              taxonomy: "samla-lan", // taxonomy slug
-              endpoint: "prp_reviews_tax", // REST API endpoint
-              postTypeEndpoint: "prp_reviews", // endpoint from which posts from this taxonomy are fetched
-            }
           ]
         }
       }
     },
     "@frontity/tiny-router",
     "@frontity/html2react",
-    "@frontity/head-tags"    
-    ]
+    "@frontity/yoast",
+    "frontity-contact-form-7"        
+    ]   
 };
 
 export default settings;
+
+
+

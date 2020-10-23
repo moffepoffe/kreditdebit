@@ -1,43 +1,35 @@
 import React from "react";
 import { connect, styled } from "frontity";
 import Link from "../link";
-
+import logo from '../assets/logo.png'; 
+//<img src={logo} alt="Kreditdebit" height="80"/>
 /**
  * Navigation Component
  *
  * It renders the navigation links
  */
 const Nav = ({ state }) => (
-  <NavContainer>
-    {state.theme.menu.map(([name, link]) => {
-      // Check if the link matched the current page url
-      const isCurrentPage = state.router.link === link;
-      return (
-        <NavItem key={name}>
-          {/* If link url is the current page, add `aria-current` for a11y */}
-          <Link link={link} aria-current={isCurrentPage ? "page" : undefined}>
-            {name}
-          </Link>
-        </NavItem>
-      );
-    })}
-  </NavContainer>
+  <NavContainer className="navbar navbar-expand-lg">
+        <a className="navbar-brand" href="/"><img src={logo} alt="Kreditdebit" height="80"/></a>
+        <div className="collapse navbar-collapse" id="mainnav">
+        <ul className="nav justify-content-end">
+        {state.theme.menu.map(([name, link]) => {
+                  // Check if the link matched the current page url
+                  const isCurrentPage = state.router.link === link;
+                  return (
+                  <li className={isCurrentPage ? "nav-item active" : "nav-item"} key={name}>
+                    <a className="nav-link" href={link}>{name} <span className="sr-only">(current)</span></a>
+                  </li>
+                  );
+                })}
+        </ul>
+        </div>
+      </NavContainer>
 );
 
 export default connect(Nav);
 
 const NavContainer = styled.nav`
-  list-style: none;
-  display: flex;
-  max-width: 100%;
-  box-sizing: border-box;
-  padding: 0 24px;
-  margin: 0;
-  overflow-x: auto;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
 `;
 
 const NavItem = styled.div`

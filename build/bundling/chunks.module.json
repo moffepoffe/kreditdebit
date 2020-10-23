@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "b7836e8e407a40d377d3",
+  "hash": "cd619515bb8eafd52ea4",
   "publicPath": "/static/",
   "outputPath": "/Users/martensidfalk/Local Sites/kreditdebit-frontity/build/static",
   "assetsByChunkName": {
@@ -44,7 +44,7 @@
     },
     {
       "name": "kreditdebit-frontity.module.js",
-      "size": 6529380,
+      "size": 7047376,
       "chunks": [
         "kreditdebit-frontity"
       ],
@@ -52,12 +52,11 @@
         "kreditdebit-frontity"
       ],
       "info": {},
-      "emitted": true,
-      "isOverSizeLimit": true
+      "emitted": false
     },
     {
       "name": "list.module.js",
-      "size": 82332,
+      "size": 80642,
       "chunks": [
         "list"
       ],
@@ -65,7 +64,7 @@
         "list"
       ],
       "info": {},
-      "emitted": true
+      "emitted": false
     }
   ],
   "filteredAssets": 0,

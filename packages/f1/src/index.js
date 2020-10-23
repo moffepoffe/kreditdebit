@@ -55,6 +55,7 @@ const awsminF1 = {
    */
   actions: {
     theme: {
+
       toggleMobileMenu: ({ state }) => {
         state.theme.isMobileMenuOpen = !state.theme.isMobileMenuOpen;
       },

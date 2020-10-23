@@ -2,8 +2,8 @@ import React from "react";
 import { Global, css, connect, styled,  } from "frontity";
 import { render } from 'react-dom';
 import device from "./assets/sizes";
-//https://jsramblings.com/how-to-use-media-queries-with-styled-components/
-const CtaButton = styled.a`
+
+const CtaButtonBig = styled.a`
 font-size: 14px;
 font-weight: bold; 
 padding: 15px 58px;
@@ -27,4 +27,5 @@ margin-top: 15px;
 	}
 	
 `;
-export default connect(CtaButton);
+export default connect(CtaButtonBig);
+

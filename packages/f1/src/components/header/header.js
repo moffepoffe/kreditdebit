@@ -3,21 +3,14 @@ import { connect, styled } from "frontity";
 import Link from "../link";
 import Nav from "./nav";
 import MobileMenu from "./menu";
-import logo from '../assets/logo.png'; 
-//<img src={logoImage} alt="Image alt" />
 
 
 const Header = ({ state }) => {
   
   return (
     <>
-      <BrandContainer>
-        <StyledLink link="/">
-        <Title><img src={logo} alt="Kreditdebit" height="80"/></Title>
-        </StyledLink>
-        <MobileMenu />
-      </BrandContainer>
       <Nav />
+      <MobileMenu />      
     </>
 
 

@@ -4,7 +4,7 @@ import { render } from 'react-dom';
 import FeaturedMedia from "./featured-media";
 import Title from "./title";
 import BootstrapCss from './styles/bootstrap.css';
-import CtaButton from "./ctabutton";
+import CtaButtonBig from "./ctabutton";
 import device from "./assets/sizes";
 
 /* background: ${{post.acf.color}}; */
@@ -43,10 +43,7 @@ const TopInfo = ({ state, actions, libraries }) => {
 							<LoanRightBox className="loan-right-box h-100">
 							<LoanLogoDiv background={post.acf.review_thumbnail.url}/>
 									<div>
-										<CtaButton href="#">Till ansökan</CtaButton>
-									</div>
-									<div style={{marginBottom: '25px'}}>									
-									<div className="stars-lg">Starz</div>
+										<CtaButtonBig href={post.acf_affiliate_url} rel="nofollow" target="_blank">Till ansökan</CtaButtonBig>
 									</div>
 									</LoanRightBox>
 								

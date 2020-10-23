@@ -3,7 +3,7 @@ import { connect, styled } from "frontity";
 import { render } from 'react-dom';
 import FeaturedMedia from "./featured-media";
 import BootstrapCss from './styles/bootstrap.css';
-import CtaButton from "./ctabutton";
+import CtaButtonBig from "./ctabutton";
 
 const FixedHeader = ({ state }) => {
 	const data = state.source.get(state.router.link);
@@ -23,7 +23,7 @@ const FixedHeader = ({ state }) => {
 		<FixedInnerDiv>
 			<TopLogo background={post.acf.review_thumbnail.url}/>	
 			<div className="text-right" style={{padding: '30px 15px'}}>
-				<CtaButton href="#">Ansök idag</CtaButton>
+			<CtaButtonBig href={post.acf_affiliate_url} rel="nofollow" target="_blank">Till ansökan</CtaButtonBig>
 			</div>		
 			</FixedInnerDiv>	
 		</FixedHeaderDiv>    
