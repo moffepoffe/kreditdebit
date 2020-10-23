@@ -44,12 +44,12 @@ box-shadow: 0px 0px 10px #00000042;
 `;
 
 const TopLogo = styled.div`
-height: 55px;
+height: 50px;
 background: ${props => `url(${props.background}) no-repeat`};
 background-repeat: no-repeat !important;
 margin-top: 15px;
 background-size: contain !important;
-width: 191px;
+width: 110px;
 background-position-y: center !important;
 `;
 
