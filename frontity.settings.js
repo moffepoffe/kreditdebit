@@ -7,16 +7,6 @@ const settings = {
       "description": "Jämför lån för dina behov online"
     }
   },
- "packages": [
-    {
-      "name": "@frontity/google-analytics",
-      "state": {
-        "googleAnalytics": {
-          "trackingId": "G-KTDBJQ3SQ3",
-        },
-      },
-    },
-  ],
   "packages": [
     {
       "name": "@awsmin/f1",
@@ -68,6 +58,14 @@ const settings = {
         }
       }
     },
+    {
+      name: "@frontity/google-analytics",
+      state: {
+          googleAnalytics: {
+              trackingId: 'G-KTDBJQ3SQ3'
+          },
+      },
+  },
     "@frontity/tiny-router",
     "@frontity/html2react",
     "@frontity/yoast",
