@@ -2,52 +2,14 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "a53348ecaa4fff49d708",
+  "hash": "ad15b3ac878775a2b6cc",
   "publicPath": "/static/",
   "outputPath": "/Users/martensidfalk/Local Sites/kreditdebit-frontity/build/static",
   "assetsByChunkName": {
-    "kreditdebit-frontity": [
-      "kreditdebit-frontity.module.js",
-      "kreditdebit-frontity.54a4521fef8582a2bcce.hot-update.js"
-    ],
+    "kreditdebit-frontity": "kreditdebit-frontity.module.js",
     "list": "list.module.js"
   },
   "assets": [
-    {
-      "name": "54a4521fef8582a2bcce.hot-update.json",
-      "size": 62,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
-      "name": "fonts/Montserrat-Light.ttf",
-      "size": 242068,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "fonts/Montserrat-LightItalic.ttf",
-      "size": 246276,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {},
-      "emitted": false
-    },
-    {
-      "name": "fonts/Montserrat-SemiBold.ttf",
-      "size": 243816,
-      "chunks": [],
-      "chunkNames": [],
-      "info": {},
-      "emitted": false
-    },
     {
       "name": "images/logo.png",
       "size": 174253,
@@ -57,23 +19,8 @@
       "emitted": false
     },
     {
-      "name": "kreditdebit-frontity.54a4521fef8582a2bcce.hot-update.js",
-      "size": 5786,
-      "chunks": [
-        "kreditdebit-frontity"
-      ],
-      "chunkNames": [
-        "kreditdebit-frontity"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
-      "emitted": false
-    },
-    {
       "name": "kreditdebit-frontity.module.js",
-      "size": 7080889,
+      "size": 7067742,
       "chunks": [
         "kreditdebit-frontity"
       ],
@@ -81,7 +28,8 @@
         "kreditdebit-frontity"
       ],
       "info": {},
-      "emitted": false
+      "emitted": true,
+      "isOverSizeLimit": true
     },
     {
       "name": "list.module.js",
@@ -103,8 +51,7 @@
         "kreditdebit-frontity"
       ],
       "assets": [
-        "kreditdebit-frontity.module.js",
-        "kreditdebit-frontity.54a4521fef8582a2bcce.hot-update.js"
+        "kreditdebit-frontity.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -116,8 +63,7 @@
         "kreditdebit-frontity"
       ],
       "assets": [
-        "kreditdebit-frontity.module.js",
-        "kreditdebit-frontity.54a4521fef8582a2bcce.hot-update.js"
+        "kreditdebit-frontity.module.js"
       ],
       "children": {},
       "childAssets": {}

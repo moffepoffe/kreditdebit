@@ -20,9 +20,9 @@ import gutenbergTheme from "./styles/gutenberg/theme.css";
 import TopInfo from "./topinfo.js";
 import ContactInfo from "./contactinfo";
 import LoanExample from "./loanexample.js";
-import MontserratLight from "./assets/fonts/Montserrat-Light.ttf";
-import MontserratLightItalic from "./assets/fonts/Montserrat-LightItalic.ttf";
-import MontserratSemiBold from "./assets/fonts/Montserrat-SemiBold.ttf";
+//import MontserratLight from "./assets/fonts/Montserrat-Light.ttf";
+//import MontserratLightItalic from "./assets/fonts/Montserrat-LightItalic.ttf";
+//import MontserratSemiBold from "./assets/fonts/Montserrat-SemiBold.ttf";
 
 
 
@@ -45,6 +45,7 @@ const Theme = ({ state }) => {
 
       {/* Add some global styles for the whole site, like body or a's. 
       Not classes here because we use CSS-in-JS. Only global HTML tags. */}
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;1,100&display=swap" rel="stylesheet" />
       <Global styles={css(BootstrapCss)} />
       <Global styles={css(BootstrapGrid)} />
       <Global styles={css(BootstrapReboot)} />
@@ -102,29 +103,7 @@ const globalStyles = css`
     --black: #000000;
     --white: #ffffff;
     --bodycolor: #FFFFFF;
-  }
-  @font-face {
-      font-family: "Montserrat Light";
-      font-style: normal;
-      font-weight: normal;
-      font-display: fallback;
-      src: url("${MontserratLight}") format("truetype");
-    }  
-
-    @font-face {
-          font-family: "Montserrat Light";
-          font-style: italic;
-          font-weight: normal;
-          font-display: fallback;
-          src: url("${MontserratLightItalic}") format("truetype");
-        }    
-        @font-face {
-                font-family: "Montserrat Light";
-                font-style: normal;
-                font-weight: 600;
-                font-display: fallback;
-                src: url("${MontserratSemiBold}") format("truetype");
-              }         
+  }      
   body {
     margin: 0;
     color:var(--blackl);

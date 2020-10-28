@@ -1,3 +1,7 @@
 .vercel
 node_modules/.cache/
 build/static/
+build/analyze/module-development.html
+build/analyze/server-development.html
+build/bundling/chunks.module.json
+build/server.js
