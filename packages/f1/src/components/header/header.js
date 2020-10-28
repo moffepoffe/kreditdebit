@@ -3,13 +3,13 @@ import { connect, styled } from "frontity";
 import Link from "../link";
 import Nav from "./nav";
 import MobileMenu from "./menu";
-
+import InViewOnScroll from "./inview";
 
 const Header = ({ state }) => {
   
   return (
     <>
-      <Nav />
+      <InViewOnScroll />
       <MobileMenu />      
     </>
 

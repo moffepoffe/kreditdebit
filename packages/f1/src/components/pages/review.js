@@ -34,11 +34,6 @@ const Review = ({ state, actions, libraries }) => {
 
     <ArticleContainer>
     
-    {/* Only display topbanner on reviews */}
-    {data.isPrpReviews && (
-      <FixedHeader/>  
-       )}          
-
       <Content>
         <Html2React html={post.content.rendered} />
       </Content>

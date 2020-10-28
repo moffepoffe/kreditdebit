@@ -9,15 +9,6 @@ const FixedHeader = ({ state }) => {
 	const data = state.source.get(state.router.link);
 	const post = state.source[data.type][data.id];
 	
-		  document.addEventListener('scroll', () => {
-			  if(window.scrollY > 100) {
-				  document.getElementById('topBanner').style.display = 'block';
-			  }
-			  else {
-				  document.getElementById('topBanner').style.display = 'none';
-			  }
-			});
-	
 	return (
 		<FixedHeaderDiv id="topBanner">
 		<FixedInnerDiv>
@@ -32,7 +23,7 @@ const FixedHeader = ({ state }) => {
 	
 
 const FixedHeaderDiv = styled.div`
-display: none;
+display: block;
 background:  #FFFFFF;
 position: fixed;
 top: 0px;

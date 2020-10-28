@@ -2,14 +2,28 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "cd619515bb8eafd52ea4",
+  "hash": "a53348ecaa4fff49d708",
   "publicPath": "/static/",
   "outputPath": "/Users/martensidfalk/Local Sites/kreditdebit-frontity/build/static",
   "assetsByChunkName": {
-    "kreditdebit-frontity": "kreditdebit-frontity.module.js",
+    "kreditdebit-frontity": [
+      "kreditdebit-frontity.module.js",
+      "kreditdebit-frontity.54a4521fef8582a2bcce.hot-update.js"
+    ],
     "list": "list.module.js"
   },
   "assets": [
+    {
+      "name": "54a4521fef8582a2bcce.hot-update.json",
+      "size": 62,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
     {
       "name": "fonts/Montserrat-Light.ttf",
       "size": 242068,
@@ -43,8 +57,23 @@
       "emitted": false
     },
     {
+      "name": "kreditdebit-frontity.54a4521fef8582a2bcce.hot-update.js",
+      "size": 5786,
+      "chunks": [
+        "kreditdebit-frontity"
+      ],
+      "chunkNames": [
+        "kreditdebit-frontity"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "kreditdebit-frontity.module.js",
-      "size": 7047376,
+      "size": 7080889,
       "chunks": [
         "kreditdebit-frontity"
       ],
@@ -74,7 +103,8 @@
         "kreditdebit-frontity"
       ],
       "assets": [
-        "kreditdebit-frontity.module.js"
+        "kreditdebit-frontity.module.js",
+        "kreditdebit-frontity.54a4521fef8582a2bcce.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -86,7 +116,8 @@
         "kreditdebit-frontity"
       ],
       "assets": [
-        "kreditdebit-frontity.module.js"
+        "kreditdebit-frontity.module.js",
+        "kreditdebit-frontity.54a4521fef8582a2bcce.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
