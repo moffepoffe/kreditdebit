@@ -7,7 +7,6 @@ import List from "./list";
 import Post from "./post";
 import Page from "./pages/page";
 import HomePage from "./pages/homepage";
-import Jobs from "./pages/jobs";
 import Review from "./pages/review"
 import Loading from "./loading";
 import Title from "./title";

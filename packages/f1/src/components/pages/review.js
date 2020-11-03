@@ -3,7 +3,6 @@ import { connect, styled } from "frontity";
 import Link from "../link";
 import List from "../list";
 import FeaturedMedia from "../featured-media";
-import FixedHeader from "../fixedheader"; 
 import TopInfo from "../topinfo.js";
 import Faq from "../faq.js";
 const Review = ({ state, actions, libraries }) => {
