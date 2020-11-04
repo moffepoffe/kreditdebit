@@ -50,7 +50,9 @@ const HomeLoans = ({ state, actions }) => {
 				</table>
 				<div className="list-btm-btn">
 				<CtaButtonSmall href={p.acf_affiliate_url} rel="nofollow" target="_blank">Till Ansökan</CtaButtonSmall>
-				<CtaButtonBorderOnly href={p.link}>Läs mer</CtaButtonBorderOnly>
+				<Link link={p.link}>
+				<CtaButtonBorderOnly>Läs mer</CtaButtonBorderOnly>
+				</Link>
 					  </div>
 					</div>
 				  </div>
@@ -81,7 +83,7 @@ transition: all .4s ease-in-out;
 float: left;
 `;
 
-const CtaButtonBorderOnly = styled.a`
+const CtaButtonBorderOnly = styled.span`
 font-size: 13px;
 padding: 8px 20px;
 border-radius: 50px;

@@ -2,19 +2,19 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "bbeb767a91e5b0b72d94",
+  "hash": "343f5eb832f6f6f79ea5",
   "publicPath": "/static/",
   "outputPath": "/Users/martensidfalk/Local Sites/kreditdebit-frontity/build/static",
   "assetsByChunkName": {
     "kreditdebit-frontity": [
       "kreditdebit-frontity.module.js",
-      "kreditdebit-frontity.b6463dd4386fdc736bd7.hot-update.js"
+      "kreditdebit-frontity.57be90421a5a6dae0e10.hot-update.js"
     ],
     "list": "list.module.js"
   },
   "assets": [
     {
-      "name": "b6463dd4386fdc736bd7.hot-update.json",
+      "name": "57be90421a5a6dae0e10.hot-update.json",
       "size": 62,
       "chunks": [],
       "chunkNames": [],
@@ -33,8 +33,8 @@
       "emitted": false
     },
     {
-      "name": "kreditdebit-frontity.b6463dd4386fdc736bd7.hot-update.js",
-      "size": 6063,
+      "name": "kreditdebit-frontity.57be90421a5a6dae0e10.hot-update.js",
+      "size": 21300,
       "chunks": [
         "kreditdebit-frontity"
       ],
@@ -49,7 +49,7 @@
     },
     {
       "name": "kreditdebit-frontity.module.js",
-      "size": 7013235,
+      "size": 7013524,
       "chunks": [
         "kreditdebit-frontity"
       ],
@@ -61,7 +61,7 @@
     },
     {
       "name": "list.module.js",
-      "size": 80642,
+      "size": 81171,
       "chunks": [
         "list"
       ],
@@ -80,7 +80,7 @@
       ],
       "assets": [
         "kreditdebit-frontity.module.js",
-        "kreditdebit-frontity.b6463dd4386fdc736bd7.hot-update.js"
+        "kreditdebit-frontity.57be90421a5a6dae0e10.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -93,7 +93,7 @@
       ],
       "assets": [
         "kreditdebit-frontity.module.js",
-        "kreditdebit-frontity.b6463dd4386fdc736bd7.hot-update.js"
+        "kreditdebit-frontity.57be90421a5a6dae0e10.hot-update.js"
       ],
       "children": {},
       "childAssets": {}

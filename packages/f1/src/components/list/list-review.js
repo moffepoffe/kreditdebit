@@ -41,7 +41,9 @@ const ReviewItem = ({ state, item }) => {
       </table>
       <div className="list-btm-btn">
       <CtaButtonSmall href={item.acf_affiliate_url} rel="nofollow" target="_blank">Till Ansökan</CtaButtonSmall>
-      <CtaButtonBorderOnly href={item.link}>Läs mer</CtaButtonBorderOnly>
+ <Link link={item.link}>     
+      <CtaButtonBorderOnly>Läs mer</CtaButtonBorderOnly>
+      </Link>
             </div>
 		  </div>
 		</div>
@@ -68,7 +70,7 @@ transition: all .4s ease-in-out;
 float: left;
 `;
 
-const CtaButtonBorderOnly = styled.a`
+const CtaButtonBorderOnly = styled.span`
 font-size: 13px;
 padding: 8px 20px;
 border-radius: 50px;
