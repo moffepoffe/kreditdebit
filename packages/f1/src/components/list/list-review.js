@@ -40,7 +40,7 @@ const ReviewItem = ({ state, item }) => {
             </tbody>      
       </table>
       <div className="list-btm-btn">
-      <CtaButtonSmall href={item.acf_affiliate_url} rel="nofollow" target="_blank">Till Ansökan</CtaButtonSmall>
+      <CtaButtonSmall href={"https://wp.kreditdebit.com/go/" + p.acf.affiliate_key} rel="nofollow" target="_blank">Till Ansökan</CtaButtonSmall>
  <Link link={item.link}>     
       <CtaButtonBorderOnly>Läs mer</CtaButtonBorderOnly>
       </Link>

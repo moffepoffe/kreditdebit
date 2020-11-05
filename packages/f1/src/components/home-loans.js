@@ -49,7 +49,7 @@ const HomeLoans = ({ state, actions }) => {
 					  </tbody>      
 				</table>
 				<div className="list-btm-btn">
-				<CtaButtonSmall href={p.acf_affiliate_url} rel="nofollow" target="_blank">Till Ansökan</CtaButtonSmall>
+				<CtaButtonSmall href={"https://wp.kreditdebit.com/go/" + p.acf.affiliate_key} rel="nofollow" target="_blank">Till Ansökan</CtaButtonSmall>
 				<Link link={p.link}>
 				<CtaButtonBorderOnly>Läs mer</CtaButtonBorderOnly>
 				</Link>
