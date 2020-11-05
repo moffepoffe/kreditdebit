@@ -9,17 +9,20 @@ const InViewOnScroll = ({ children, state }) => {
   const { ref, inView } = useInView({ triggerOnce: false });
     
 const data = state.source.get(state.router.link);
+if(data.isReady) {
 const post = state.source[data.type][data.id];  
 
   // the container is visible, or a placeholder otherwise.
 if (data.isPrpReviews === true || data.isPrpReviewsArchive === false) {
   return <div ref={ref}>{inView ? <Nav /> : <FixedHeader />}</div>;
-  console.log('single');
 }
 else {
 	  return <div ref={ref}>{inView ? <Nav /> : <Nav />}</div>;
-	  console.log('inte single'); 
   }
+}
+else {
+  return <Nav />;
+}
 };
 
 export default connect(InViewOnScroll);
