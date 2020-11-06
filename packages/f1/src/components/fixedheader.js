@@ -14,7 +14,7 @@ const FixedHeader = ({ state }) => {
 		<FixedInnerDiv>
 			<TopLogo background={post.acf.review_thumbnail.url}/>	
 			<div className="text-right" style={{padding: '30px 15px'}}>
-			<CtaButtonBig href={post.acf_affiliate_url} rel="nofollow" target="_blank">Till ansökan</CtaButtonBig>
+			<CtaButtonBig href={"https://wp.kreditdebit.com/go/" + post.acf.affiliate_key} rel="nofollow" target="_blank">Till ansökan</CtaButtonBig>
 			</div>		
 			</FixedInnerDiv>	
 		</FixedHeaderDiv>    

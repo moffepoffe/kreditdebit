@@ -2,20 +2,20 @@
   "errors": [],
   "warnings": [],
   "version": "4.44.2",
-  "hash": "3a30e936f0d5dd234acb",
+  "hash": "58c5acad02935d581f05",
   "publicPath": "/static/",
   "outputPath": "/Users/martensidfalk/Local Sites/kreditdebit-frontity/build/static",
   "assetsByChunkName": {
-    "kreditdebit-frontity": "kreditdebit-frontity.module.js",
-    "list": [
-      "list.module.js",
-      "list.78392c532c37c7d8a282.hot-update.js"
-    ]
+    "kreditdebit-frontity": [
+      "kreditdebit-frontity.module.js",
+      "kreditdebit-frontity.c28f5509bc46005e5092.hot-update.js"
+    ],
+    "list": "list.module.js"
   },
   "assets": [
     {
-      "name": "78392c532c37c7d8a282.hot-update.json",
-      "size": 46,
+      "name": "c28f5509bc46005e5092.hot-update.json",
+      "size": 62,
       "chunks": [],
       "chunkNames": [],
       "info": {
@@ -33,8 +33,23 @@
       "emitted": false
     },
     {
+      "name": "kreditdebit-frontity.c28f5509bc46005e5092.hot-update.js",
+      "size": 15321,
+      "chunks": [
+        "kreditdebit-frontity"
+      ],
+      "chunkNames": [
+        "kreditdebit-frontity"
+      ],
+      "info": {
+        "hotModuleReplacement": true,
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
       "name": "kreditdebit-frontity.module.js",
-      "size": 7013822,
+      "size": 7014468,
       "chunks": [
         "kreditdebit-frontity"
       ],
@@ -42,21 +57,6 @@
         "kreditdebit-frontity"
       ],
       "info": {},
-      "emitted": false
-    },
-    {
-      "name": "list.78392c532c37c7d8a282.hot-update.js",
-      "size": 52631,
-      "chunks": [
-        "list"
-      ],
-      "chunkNames": [
-        "list"
-      ],
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true
-      },
       "emitted": false
     },
     {
@@ -79,7 +79,8 @@
         "kreditdebit-frontity"
       ],
       "assets": [
-        "kreditdebit-frontity.module.js"
+        "kreditdebit-frontity.module.js",
+        "kreditdebit-frontity.c28f5509bc46005e5092.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -91,7 +92,8 @@
         "kreditdebit-frontity"
       ],
       "assets": [
-        "kreditdebit-frontity.module.js"
+        "kreditdebit-frontity.module.js",
+        "kreditdebit-frontity.c28f5509bc46005e5092.hot-update.js"
       ],
       "children": {},
       "childAssets": {}
@@ -101,8 +103,7 @@
         "list"
       ],
       "assets": [
-        "list.module.js",
-        "list.78392c532c37c7d8a282.hot-update.js"
+        "list.module.js"
       ],
       "children": {},
       "childAssets": {}

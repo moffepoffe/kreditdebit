@@ -43,7 +43,7 @@ const TopInfo = ({ state, actions, libraries }) => {
 							<LoanRightBox className="loan-right-box h-100">
 							<LoanLogoDiv background={post.acf.review_thumbnail.url}/>
 									<div>
-										<CtaButtonBig href={post.acf_affiliate_url} rel="nofollow" target="_blank">Till ansökan</CtaButtonBig>
+										<CtaButtonBig href={"https://wp.kreditdebit.com/go/" + post.acf.affiliate_key} rel="nofollow" target="_blank">Till ansökan</CtaButtonBig>
 									</div>
 									</LoanRightBox>
 								
